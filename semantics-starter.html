@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML 5 Semantic Code Example</title>
+        <!--css here-->
+
+    </head>
+    <body>
+        <!-- main heading of page - only use h1 once per page -->
+        <header>
+            <h1>Proper Use of html5 Semantic Markup</h1>
+        </header>
+         <!-- main navigation links to relative internal links only (once per page) -->
+        <nav>
+            <h2 class="sr-only">main navigation</h2>
+            <ul>
+                <li><a href="#latin-dummy">LINK 1</a></li>
+                <li><a href="#">LINK 2</a></li>
+                <li><a href="#">LINK 3</a></li>
+            </ul>
+        </nav>
+        <!-- main content of page -->
+        <main>
+            <!--grouping content together-->
+            <section id="latin-dummy">
+                <h2>latin "dummy" text</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+                <!--informational images-->
+                <figure>
+                    <img src="http://placehold.it/300x300" alt="verbal description of image">
+                    <figcaption>image title</figcaption>
+                </figure>
+                <!--supplementary info-->
+                <aside>
+                    <h2>supplementary latin links</h2>
+                    <ul>
+                        <li><a href="#">how to learn latin</a></li>
+                    </ul>
+                </aside>
+            </section>
+        </main>
+    </body>
+</html>

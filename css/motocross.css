@@ -11,8 +11,9 @@ body{
 
 .container{
     /*max-width: 1200px;*/
+    /*max-width:100ch;*/
+    max-width:898.438px;
     margin: 0 auto;
-    max-width:100ch;
     height: 100vh;
     grid-template-columns: 1fr 2fr 1fr;
 }

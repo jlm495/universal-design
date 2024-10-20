@@ -212,7 +212,10 @@ form{
     padding-bottom:20px;
 }
 
-address a:link{
+address a:link, 
+a:active, 
+a:hover, 
+a:visited{
     color:red;
     text-decoration-color:red;
 }

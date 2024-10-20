@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Roboto:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body{
+    background:black;
+    color:ghostwhite;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    /*max-width: 1200px;*/
+    /*max-width:100ch;*/
+    max-width:898.438px;
+    margin: 0 auto;
+    margin-bottom: 200.0em;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+p{
+    line-height: 1.3em;
+    margin-bottom:1.3em;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1{
+    font-size: 2.0em;
+    background:maroon;
+    text-shadow:1px 1px black;
+}
+
+h2{
+    font-size: 1.7em;
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+h4{
+    font-size: 1.1em;
+}
+
+nav ul li{
+
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+nav ul li a:link{
+    color: maroon;
+    background:white;
+    border-color:black;
+    border-style:dashed;
+}
+
+nav ul li a:visited{
+    color: maroon;
+    background:white;
+}
+
+nav ul li a:hover{
+
+    color: white;
+    text-shadow: 1px 1px black;
+    background: maroon;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+nav ul li a:active{
+    color: white;
+}
+
+strong{
+    font-weight:700;
+}
+
+footer{
+    font-size:0.8em;
+    text-align:right;
+}
+
+ul{
+    padding-bottom:1.0em;
+}
+
+.image{
+    border-style: solid;
+    border-width: 4px;
+    border-color: maroon;
+}
+
+figure{
+    font-size:small;
+    text-align:center;
+    max-width:35ch;
+}
+
+.skip-link {
+  background: black;
+  color: #fff;
+  font-weight: 700;
+  padding: 4px;
+  position: absolute;
+  transform: translateY(-200%);
+}
+  
+.skip-link:focus {
+  transform: translateY(-100%);
+}
+  
+.skip-link {
+  /* Same as  before */
+    transition: transform 0.3s;
+}
+
+mark{
+
+    color:white;
+    background:red;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+caption{
+    width:800px;
+    padding-bottom: 20px;
+}
+
+th{
+    font-size:1.25em;
+}
+
+table {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+td {
+    border: 2px solid red;
+    text-align: center;
+    width: 200px;
+}
+
+/* Form */
+input:invalid{
+    border: 2px dotted red;
+}
+input:focus{
+    background: maroon;
+    color: white;
+    border: 4px solid black;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+/* will target any field that is not submit and is valid */
+input:not([type="submit"]):valid{
+    border-color:green;
+    box-shadow:0 0 3px green;
+    border: 2px solid green;
+}
+input:not([type="submit"]) + .inputReqs{
+    overflow: hidden;
+    max-height:0;
+    transition:max-height 1s ease-out;
+}
+input:not([type="submit"]):hover + .inputReqs,
+input:not([type="submit"]):focus + .inputReqs,
+input:not([type="submit"]):active + .inputReqs{
+    max-height: 1000px;
+    transition: max-height 1s ease-in;
+
+}
+input [type="submit"]{
+    border:black;
+}
+form{
+    padding-top:20px;
+    padding-bottom:20px;
+}

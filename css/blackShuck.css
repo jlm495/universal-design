@@ -212,7 +212,7 @@ form{
     padding-bottom:20px;
 }
 
-address{
+address a:link{
     color:red;
     text-decoration-color:red;
 }

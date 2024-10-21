@@ -74,6 +74,11 @@ nav ul li a{
     font-family:'Courier New', Courier, monospace, sans-serif;
     font-weight: 700;
     font-size: 1.3em;
+    padding-left:1.0em;
+    padding-right:0.5em;
+    padding-top:0.25em;
+    padding-bottom:0.25em;
+    line-height:2.0em;
 }
 nav ul li a:link{
     color: maroon;

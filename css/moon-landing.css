@@ -15,11 +15,11 @@ a:visited{
     color:red;
     text-decoration-color:red;
 }
-img { color: red; text-align: center; }
+img { color: black; text-align: center; }
 .image{
     border-style: solid;
     border-width: 2px;
-    border-color: gray;
+    border-color: white;
 }
 
 figure{
@@ -157,6 +157,10 @@ main{
 
 #img4{
     padding-top:160.0em;
+}
+
+#img5{
+    border:2px solid black;
 }
 
 #mainImage{

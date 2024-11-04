@@ -15,7 +15,10 @@ a:visited{
     color:red;
     text-decoration-color:red;
 }
+#imagesHeading{
 
+    color:white;
+}
 .image{
     border-style: solid;
     border-width: 2px;
@@ -161,6 +164,7 @@ main{
 
 #img5{
     border:2px solid black;
+    color:black;
 }
 
 #mainImage{

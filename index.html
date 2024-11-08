@@ -1,32 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Index</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="./css/normalize.css" rel="stylesheet">
     <link rel='stylesheet' href='./css/index.css'>
 </head>
 <body>
-    <main class="grid">
+    <a class="skip-link" href="#maincontent">Skip to main content</a>
+    <div class="container">
+    <header>
         <h1 class="section-title">Universal Design F24 - Jenna Mandel</h1>
+    </header>
+    <nav>
+        <h2 class="sr-only">Main Navigation</h2>
+        <ul class="assignments">
+            <li><a href="motocross.html">Lab #2</a></li>
+            <li><a href="blackShuck.html">Lab #3</a></li>
+            <li><a href="moon-landing.html">Lab #4</a></li>
+        </ul>
+    </nav>
+    <main class="grid" id="maincontent">
         
         <h2 class="about-me">About Me</h2>
+
+        <figure id="img4">
+            <img src="./img/headshot-small.jpg" alt="Woman with red hair smiling" class="image">
+            <figcaption>Jenna Mandel</figcaption>
+        </figure>
         
-        <p>
-            I'm a senior majoring in CTD and minoring in Space and Computer Science here at CU.
-            My hobbies include dirt biking, 4-wheeling, writing, reading, and gaming.
-        </p>
+        <p>As a senior at CU, I'm pursuing a major in CTD with minors in Space and Computer Science. I grew up as the youngest of 5 children alongside my identical twin sister. Our childhood was spent helping at my parents' small businesses—a dirt bike track and a salvage yard. Those early experiences sparked my love for outdoor motorsports. Today, I still enjoy dirt biking and 4-wheeling.</p>
 
-        <hr>
-
-        <h2 class="assignments-title">Assignments</h2>
-
-        <ul class="assignments">
-            <li><a href="motocross.html">Assignment 1</a></li>
-            <li><a href="blackShuck.html">Assignment 2</a></li>
-            <li><a href="moon-landing.html">Assignment 3</a></li>
-        </ul>
+        <p>My passion for electronics and coding drives my academic pursuits, and I'm always eager to take on new challenges and expand my knowledge. When I'm not studying, you can find me writing, reading, gaming, or working at my parents' dirt bike track on weekends. I also work as a private tutor during the week. I'm looking forward to graduating in May 2025.</p>
     </main>
+    <footer>
+        <small> designed by Jenna Mandel</small>
+    </footer>
+    </div>
 </body>
 </html>

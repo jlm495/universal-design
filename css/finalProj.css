@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+body{
+    /*background-color: rgba(0, 50, 255, 0.125);*/
+    background:white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+}
+address a:link, 
+a:active, 
+a:hover, 
+a:visited{
+    color:red;
+    text-decoration-color:red;
+}
+
+*, 
+*:before, 
+*:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 0.5em 0.5em;
+}
+
+h3{
+    font-style:italic;
+}
+
+h4{
+    font-size:1.2em;
+}
+
+p{
+    margin: 1.8em 0;
+    line-height: 1.8em
+}
+
+header,
+nav,
+main,
+aside,
+footer{
+    padding: 1.5em;
+    border: 1px black solid;
+}
+
+header,
+footer{
+    text-align: center;
+    color:black;
+}
+
+footer{
+    padding-top:0.1em;
+    background:whitesmoke;
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.skip-link {
+    background: black;
+    color: #fff;
+    font-weight: 700;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-200%);
+}
+
+.skip-link:focus {
+    transform: translateY(-100%);
+}
+
+.skip-link {
+/* Same as  before */
+    transition: transform 0.3s;
+}
+
+.container{
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+    background: whitesmoke;
+    display: grid;
+    width: 100vw;
+    height:100vh;
+    grid-template-columns:
+    1fr;
+    grid-template-areas:
+    "heady"
+    "navvy"
+    "mainy"
+    "asidey"
+    "footy";
+}
+
+header{
+    grid-area: heady;
+    color:black;
+}
+
+footer{
+    grid-area:footy;
+}
+
+nav{
+    grid-area: navvy;
+    max-height: 100.0em;
+}
+
+main{
+    grid-area: mainy;
+    max-height: 100%;
+    max-width: 100.0em;
+}
+
+aside{
+    grid-area: asidey;
+}
+
+nav ul {
+    display:flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    position:relative;
+    justify-content: space-around;
+    line-height: 5.0em;
+}
+nav ul li a {
+    padding: 1.0em 1.0em;
+    margin: 0.8em;
+    border: 3px black solid;
+    background: white;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    padding: 1.0em;
+}

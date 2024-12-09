@@ -5,7 +5,7 @@ body{
     /*background-color: rgba(0, 50, 255, 0.125);*/
     background:whitesmoke;
     font-family: 'Roboto',sans-serif;
-    font-size: 15px;
+    font-size: 1.0em;
 }
 address a:link, 
 a:active, 

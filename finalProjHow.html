@@ -36,27 +36,27 @@
             <pre>
             <span aria-hidden=true>
                 <code>
-                    /* HTML Example Code */
-                        &lt;aside&gt;
-                            &lt;h2 class="sr-only"&gt;Images&lt;/h2&gt;
-                            &lt;figure&gt;
-                                ...
-                            &lt;/figure&gt;
-                            ...
-                        &lt;/aside&gt;
-                    
-                    /* CSS Example Code */
-                    .sr-only {
-                        border: 0;
-                        clip: rect(0, 0, 0, 0);
-                        height: 1px;
-                        margin: -1px;
-                        overflow: hidden;
-                        padding: 0;
-                        position: absolute;
-                        white-space: nowrap;
-                        width: 1px;
-                    }
+/* HTML Example Code */
+    &lt;aside&gt;
+        &lt;h2 class="sr-only"&gt;Images&lt;/h2&gt;
+        &lt;figure&gt;
+            ...
+        &lt;/figure&gt;
+        ...
+    &lt;/aside&gt;
+
+/* CSS Example Code */
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
                 </code>
             </span>
         </pre>
@@ -69,41 +69,41 @@
             <pre>
             <span aria-hidden=true>
                 <code>
-                    
-                        /* Example HTML Code */
 
-                        &lt;head&gt;
-                        ...    
-                        &lt;/head&gt;
-                        &lt;body&gt;
+/* Example HTML Code */
 
-                            &lt;a class="skip-link" href="#maincontent"&gt;Skip to main content&lt;/a&gt;
-                            
-                            &lt;main id="maincontent"&gt;
-                                ...
-                            &lt;/main&gt;
+&lt;head&gt;
+...    
+&lt;/head&gt;
+&lt;body&gt;
 
-                        &lt;/body&gt;
-                        
-                        /* Example CSS Code */
+    &lt;a class="skip-link" href="#maincontent"&gt;Skip to main content&lt;/a&gt;
+    
+    &lt;main id="maincontent"&gt;
+        ...
+    &lt;/main&gt;
 
-                        .skip-link {
-                            background: black;
-                            color: #fff;
-                            font-weight: 700;
-                            padding: 4px;
-                            position: absolute;
-                            transform: translateY(-200%);
-                        }
-                        
-                        .skip-link:focus {
-                            transform: translateY(-100%);
-                        }
-                        
-                        .skip-link {
-                            transition: transform 0.3s;
-                        }
-                    
+&lt;/body&gt;
+
+/* Example CSS Code */
+
+.skip-link {
+    background: black;
+    color: #fff;
+    font-weight: 700;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-200%);
+}
+
+.skip-link:focus {
+    transform: translateY(-100%);
+}
+
+.skip-link {
+    transition: transform 0.3s;
+}
+
                 </code>
                 </span>
             </pre>
@@ -146,7 +146,7 @@
 
         &lt;label for="phone"&gt;
             What is your phone number?
-            &lt;input type="tel" id="phone" minlength="10" placeholder="555-555-5555"&gt;
+            &lt;input type="tel"...&gt;
         &lt;/label&gt;
 
         &lt;label for="age"&gt;
@@ -156,9 +156,9 @@
 
         &lt;label for="password"&gt;
             Create a password:
-            &lt;input type="text" id="password" maxlength="20" minlength="5" pattern="..." required&gt;
+            &lt;input type="text" ...&gt;
             &lt;ul class="inputReqs"&gt;
-                &lt;li&gt;must be at least 5 characters and contain uppercase, lowercase, number, and symbol&lt;/li&gt;
+            &lt;li&gt;must be at least 5 characters...&lt;/li&gt;
             &lt;/ul&gt;
         &lt;/label&gt;
 

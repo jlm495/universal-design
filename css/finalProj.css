@@ -176,6 +176,30 @@ nav ul li a{
     font-size: 1.3em;
     padding: 1.0em;
 }
+nav ul li a:link{
+    color: maroon;
+    background:white;
+    border-color:black;
+    border-style:dashed;
+}
+
+nav ul li a:visited{
+    color: red;
+    background:white;
+}
+
+nav ul li a:hover{
+
+    color: white;
+    text-shadow: 1px 1px black;
+    background: red;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+nav ul li a:active{
+    color: white;
+}
 
 ol li{
     padding-bottom:1.3em;

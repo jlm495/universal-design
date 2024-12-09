@@ -33,7 +33,7 @@
             <h2>Screen Reader Only Headings</h2>
             <p>Screen reader only headings are hidden text elements designed to provide additional context and navigation cues for users of assistive technologies, while remaining invisible to sighted users. These headings are typically created using CSS techniques that visually hide the text but keep it accessible to screen readers, such as positioning the text off-screen or using specific CSS classes that make the content readable by assistive technologies but not visible on the screen. They are crucial for improving website navigation and comprehension for users who rely on screen readers, as they can provide important structural information, clarify page sections, and offer supplementary details that might not be apparent from the visual design. By using screen reader only headings, developers can create more inclusive digital experiences that help users understand the context and purpose of different page sections, even when those sections might not have obvious visual distinctions.</p>
             <p>Here's an example of screen reader only headings in practice:</p>
-            <span aria-hidden=”true”>
+            <span aria-hidden=true>
                 <pre>
                 <code>
                     /* HTML Example Code */
@@ -66,10 +66,10 @@
             <h2>Adding a Skip to Content Button</h2>
             <p>A skip content button is an accessibility feature that allows keyboard and screen reader users to bypass repetitive navigation elements, such as menus and headers, and jump directly to the main content of a webpage. This is particularly important for users who navigate websites using keyboard or assistive technologies, as it saves them from having to tab through multiple repeated elements every time they load or navigate a page. Without a skip content button, users with motor disabilities or those using screen readers would need to navigate through the same series of links and menu items on every page, which can be time-consuming and frustrating. The button is typically the first interactive element on a page, hidden visually but accessible to screen readers and keyboard navigation, and when activated, it provides a direct link to the main content area, significantly improving the efficiency and user experience for individuals with disabilities.</p>
             <p>Here's some example "skip to content" button code:</p>
-            <span aria-hidden=”true”>
+            <span aria-hidden=true>
                 <pre>
                 <code>
-                    <pre>
+                    
                         /* Example HTML Code */
 
                         &lt;head&gt;
@@ -103,9 +103,9 @@
                         .skip-link {
                             transition: transform 0.3s;
                         }
-                    </pre>
+                    
                 </code>
-                
+                </pre>
                 </span>
         </section>
         <section>
@@ -118,11 +118,9 @@
             <h2>Accessible Forms</h2>
             <p>Accessible forms are critical in HTML because they ensure that all users can effectively input and submit information online. Proper form accessibility involves using semantic HTML elements like &lt;label&gt;, associating labels directly with form controls, providing clear instructions, implementing proper keyboard navigation, and offering meaningful error messages. Screen reader users rely on correctly structured forms to understand input requirements, while users with motor disabilities need forms that can be navigated and completed using keyboard controls. By creating forms with clear, descriptive labels, logical tab order, comprehensive error handling, and intuitive design, designers can ensure that critical online interactions—like registration, shopping, communication, and information submission—are inclusive and usable for everyone, regardless of their limitations.</p>
             <p>Here's an example of a good implementation of an accessible form:</p>
-            <code>
-                <pre>
             <span aria-hidden=true>
-
-                
+                <pre>
+            <code>        
 &lt;section id="form"&gt;
 &lt;h2&gt;Subscribe to our Newsletter!&lt;/h2&gt;
 &lt;form method="post"&gt;
@@ -169,8 +167,8 @@
     &lt;/fieldset&gt;
 &lt;/form&gt;
 &lt;/section&gt; 
-</pre>
                 </code>
+            </pre>
             </span>
                         
         

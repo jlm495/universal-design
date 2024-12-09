@@ -118,10 +118,11 @@
             <h2>Accessible Forms</h2>
             <p>Accessible forms are critical in HTML because they ensure that all users can effectively input and submit information online. Proper form accessibility involves using semantic HTML elements like &lt;label&gt;, associating labels directly with form controls, providing clear instructions, implementing proper keyboard navigation, and offering meaningful error messages. Screen reader users rely on correctly structured forms to understand input requirements, while users with motor disabilities need forms that can be navigated and completed using keyboard controls. By creating forms with clear, descriptive labels, logical tab order, comprehensive error handling, and intuitive design, designers can ensure that critical online interactions—like registration, shopping, communication, and information submission—are inclusive and usable for everyone, regardless of their limitations.</p>
             <p>Here's an example of a good implementation of an accessible form:</p>
-            <span aria-hidden=”true”>
+            <code>
+                <pre>
+            <span aria-hidden=true>
 
-                <code>
-                    <pre>
+                
 &lt;section id="form"&gt;
 &lt;h2&gt;Subscribe to our Newsletter!&lt;/h2&gt;
 &lt;form method="post"&gt;
@@ -129,7 +130,7 @@
     &lt;fieldset&gt;
 
         &lt;legend&gt;Give us your info!&lt;/legend&gt;
-        
+
         &lt;label for="username"&gt;
             What is your name?*
             &lt;input type="text" id="username" placeholder="first last" required&gt;
@@ -170,8 +171,9 @@
 &lt;/section&gt; 
 </pre>
                 </code>
+            </span>
                         
-        </span>
+        
         </section>
         <section>
             <h2>Accessibility Checkers</h2>

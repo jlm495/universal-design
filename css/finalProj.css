@@ -3,7 +3,7 @@
 
 body{
     /*background-color: rgba(0, 50, 255, 0.125);*/
-    background:white;
+    background:whitesmoke;
     font-family: 'Roboto',sans-serif;
     font-size: 15px;
 }
@@ -76,6 +76,7 @@ footer{
     position: absolute;
     white-space: nowrap;
     width: 1px;
+    color:white;
 }
 
 .skip-link {
@@ -97,7 +98,7 @@ footer{
 }
 
 .container{
-    /*max-width: 1200px;*/
+    
     margin: 0 auto;
     background: whitesmoke;
     display: grid;
@@ -111,6 +112,11 @@ footer{
     "mainy"
     "asidey"
     "footy";
+}
+
+#how{
+    max-width:200ch;
+    margin:0px 100px;
 }
 
 header{
@@ -149,6 +155,14 @@ aside ul{
 
 aside ul li{
     padding-bottom: 1.3em;
+}
+
+aside ul li a:visited{
+    color:red;
+}
+
+aside ul li a:link{
+    color:red;
 }
 
 nav ul {
@@ -207,6 +221,7 @@ ol li{
 
 ol{
     padding-left:1.3em;
+    padding-top:2.0em;
 }
 
 @media screen and (min-width:620px){

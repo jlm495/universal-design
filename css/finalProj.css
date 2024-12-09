@@ -177,7 +177,7 @@ nav ul li a{
     padding: 1.0em;
 }
 nav ul li a:link{
-    color: maroon;
+    color: blue;
     background:white;
     border-color:black;
     border-style:dashed;

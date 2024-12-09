@@ -115,8 +115,8 @@ footer{
 }
 
 #how{
-    max-width:200ch;
-    margin:0px 100px;
+    max-width:50ch;
+    margin:0px;
 }
 
 header{
@@ -240,6 +240,10 @@ ol{
         flex-flow: row nowrap;
     }
 
+    #how{
+        max-width:none;
+    }
+
 }
 
 @media screen and (min-width:900px){
@@ -256,5 +260,10 @@ ol{
 
     aside{
         max-width: 30ch;
+    }
+
+    #how{
+        max-width:200ch;
+        margin:0px 100px;
     }
 }
